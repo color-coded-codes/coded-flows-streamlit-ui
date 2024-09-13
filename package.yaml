@@ -1,0 +1,13 @@
+name: Streamlit UI
+pname: streamlit_ui
+description: Streamlit UI bricks
+version: 0.1.0
+icon: layout-filled
+private: false
+base: true
+category: flows_management
+python:
+  - '3.9'
+  - '3.10'
+  - '3.11'
+  - '3.12'

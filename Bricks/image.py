@@ -1,4 +1,5 @@
-from coded_flows.types import MediaData, Str, Tuple
+from typing import Union
+from coded_flows.types import MediaData, Str
 
 
 coded_flows_metadata = {
@@ -11,23 +12,23 @@ coded_flows_metadata = {
             "name": "channels",
             "display_name": "Channels",
             "type": "select",
-            "choices": ['RGB', 'BGR'],
-            "default": "RGB"
+            "choices": ["RGB", "BGR"],
+            "default": "RGB",
         },
         {
             "name": "output_format",
             "display_name": "Output Format",
             "type": "select",
-            "choices":[
+            "choices": [
                 "auto",
                 "JPEG",
                 "PNG",
             ],
-            "default": "auto"
+            "default": "auto",
         },
     ],
 }
 
 
-def image(image: Tuple[MediaData, Str], options, caption: Str = ''):
+def image(image: Union[MediaData, Str], options, caption: Str = ""):
     pass

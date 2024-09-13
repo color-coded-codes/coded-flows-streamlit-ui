@@ -1,4 +1,5 @@
-from coded_flows.types import MediaData, Tuple, Str
+from typing import Union
+from coded_flows.types import MediaData, Str
 
 
 coded_flows_metadata = {
@@ -16,11 +17,11 @@ coded_flows_metadata = {
                 "video/webm",
                 "video/ogg",
             ],
-            "default": "video/mp4"
+            "default": "video/mp4",
         }
     ],
 }
 
 
-def video(video: Tuple[MediaData, Str], options):
+def video(video: Union[MediaData, Str], options):
     pass

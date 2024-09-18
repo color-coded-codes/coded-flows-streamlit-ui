@@ -9,5 +9,5 @@ coded_flows_metadata = {
 }
 
 
-def checkbox(toggled: Bool = False, is_disabled: Bool = False) -> Bool:
+def toggle(toggled: Bool = False, is_disabled: Bool = False) -> Bool:
     return toggled

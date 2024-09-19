@@ -1,7 +1,7 @@
 name: Streamlit UI
 pname: streamlit_ui
 description: Streamlit UI bricks
-version: 0.1.0
+version: 0.1.1
 icon: layout-filled
 private: false
 base: true

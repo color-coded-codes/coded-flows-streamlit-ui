@@ -5,7 +5,7 @@ version: 0.1.0
 icon: layout-filled
 private: false
 base: true
-category: flows_management
+category: app_flow_management
 python:
   - '3.9'
   - '3.10'
